@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6646b03c49.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container" style="width: 60%;">
+      <div class="border p-5 mt-5 border-black">
+        <div class="card-body">
+          <form id="city-form">
+            <div class="row">
+              <div class="col-4">
+                <input id="input-city" class="input-field" type="text" placeholder="Search for cities" />
+               </div>
+               <div class="col-2">
+                <input type="submit" value="Search" class="form-control">
+              </div>
+          <div class="col-2">
+            <button class="btn btn-success " id="current-location-button">
+              Current
+            </button>
+          </div>
+            </div>
+          </div>
+        </form>
+          <h1 id="city-name">
+            Mandalay
+          </h1>
+          <h2 id="date">
+            Sunday 08:30
+          </h2>
+          <h3>
+            Chance of rain: 0%
+          </h3>
+          <h4 class="today-temperature">
+            <span id="today-temp">31°</span><br /><a href="#" id="celsius-link"
+              >°C</a
+            >
+            <a href="#" id="fahrenheit-link">|°F</a>
+          </h4>
+          <div class="head-icon">
+            🌤️
+          </div>
+          <br />
+          <div class="border p-3 mt-3 border-black">
+            <div class="card-body">
+              <div class="card-title">
+                TODAY'S FORECAST
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="time">
+                    6:00AM
+                  </div>
+                  <div class="icon">
+                    ☁️
+                  </div>
+                  <div class="temperature">
+                    23°
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="time">
+                    9:00AM
+                  </div>
+                  <div class="icon">
+                    ☁️
+                  </div>
+                  <div class="temperature">
+                    25°
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="time">
+                    12:00AM
+                  </div>
+                  <div class="icon">
+                    🌤️
+                  </div>
+                  <div class="temperature" id="temp">
+                    27°
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="time">
+                    3:00PM
+                  </div>
+                  <div class="icon">
+                    🌤️
+                  </div>
+                  <div class="temperature">
+                    30°
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="time">
+                    6:00PM
+                  </div>
+                  <div class="icon">
+                    ☁️
+                  </div>
+                  <div class="temperature">
+                    28°
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="time">
+                    9:00PM
+                  </div>
+                  <div class="icon">
+                    ☁️
+                  </div>
+                  <div class="temperature">
+                    25
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="time">
+                    12:00PM
+                  </div>
+                  <div class="icon">
+                    ☁️
+                  </div>
+                  <div class="temperature">
+                    23°
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <button type="button" class="btn btn-outline-dark">
+            Next Seven Days
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+h1 {
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  h3 {
+    font-weight: bold;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "Roboto", sans-serif;
+  }
+  .btn {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-color: grey;
+  }
+  .card-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .time {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  .temperature {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .head-icon {
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    font-size: 160px;
+    color: red;
+  }
+  .input-field {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  
